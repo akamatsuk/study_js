@@ -1,5 +1,5 @@
 var x = 10;
-var y =2;
+var y = 2;
 
 console.log(x + y);
 console.log(x - y);
@@ -37,3 +37,10 @@ console.log(z);
 
 var x = 8;
 var y = 8;
+
+x++;
+y--;
+
+console.log(x);
+console.log(y);
+
