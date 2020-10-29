@@ -55,8 +55,8 @@
 // {
 //     const prices = [180, 190, 200];
 
-//     // const uodatedPrices = prices.map((price) => {
-//     //     return price +20;
+//     // const updatedPrices = prices.map((price) => {
+//     //     return price + 20;
 //     // });
 
 //     const updatedPrices = prices.map(price =>  price + 20);
