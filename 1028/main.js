@@ -223,15 +223,15 @@
 //     console.log(d);
 // }
 
-// {
-//     // alert('hello');
-//     const answer = confirm('how are you ?');
-//     if (answer) {
-//         console.log('i' + "'" + 'm fine too. thank you!');
-//     } else {
-//         console.log('oh...');
-//     }
-// }
+{
+    alert('hello');
+    const answer = confirm('how are you ?');
+    if (answer) {
+        console.log('i' + "'" + 'm fine too. thank you!');
+    } else {
+        console.log('oh...');
+    }
+}
 
 // {
 //     let i = 0;
@@ -272,50 +272,50 @@
 //         console.log(e);
 //     }
 
-//     console.log('Finish!');
+// //     console.log('Finish!');
+// // }
+
+// {
+//     class Post {
+//         constructor(text) {
+//             this.text = text;
+//             this.likeCount = 0;
+//         }
+
+//         show() {
+//             console.log(`${this.text} - ${this.likeCount} likes`);
+//         }
+
+//         like() {
+//             this.likeCount++;
+//             this.show();
+//         }
+//         //静的メソット
+//         //thisは使えない
+//         // static showInfo() {
+//         //     console.log('Post class version 1.0');
+//         // }
+//     }
+
+//     class SponsoredPost extends Post{
+//         constructor(text, sponsor) {
+//             super(text);
+//             this.sponsor = sponsor;
+//         }
+
+//         show() {
+//             super.show();
+//             console.log(`... sponsored by ${this.sponsor} `);
+//         }
+//     }
+    
+//     const posts = [
+//         new Post('study javascript'),
+//         new Post('Fun Programing!'),
+//         new SponsoredPost('Let is master at 3 minute !', 'dotinstall'),
+//     ];
+
+//     posts[2].show();
+//     posts[2].like();
+    
 // }
-
-{
-    class Post {
-        constructor(text) {
-            this.text = text;
-            this.likeCount = 0;
-        }
-
-        show() {
-            console.log(`${this.text} - ${this.likeCount} likes`);
-        }
-
-        like() {
-            this.likeCount++;
-            this.show();
-        }
-        //静的メソット
-        //thisは使えない
-        // static showInfo() {
-        //     console.log('Post class version 1.0');
-        // }
-    }
-
-    class SponsoredPost extends Post{
-        constructor(text, sponsor) {
-            super(text);
-            this.sponsor = sponsor;
-        }
-
-        show() {
-            super.show();
-            console.log(`... sponsored by ${this.sponsor} `);
-        }
-    }
-    
-    const posts = [
-        new Post('study javascript'),
-        new Post('Fun Programing!'),
-        new SponsoredPost('Let is master at 3 minute !', 'dotinstall'),
-    ];
-
-    posts[2].show();
-    posts[2].like();
-    
-}
